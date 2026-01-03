@@ -5,6 +5,6 @@
 
 int UVWBlueprintFunctionLibrary::GetPlayInEditorID()
 {
-	return GPlayInEditorID;
+	return UE::GetPlayInEditorID();
 }
 
